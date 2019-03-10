@@ -9,8 +9,7 @@ import {
     } from '@material-ui/core';
 
 export default function ({ exercises, category, onSelect, exercise, }) {
-  const { 
-    id, 
+  const {  
     title =' Welcome...', 
     description = 'Please select an exercise from the list on the left',
   } = exercise;
@@ -47,13 +46,13 @@ export default function ({ exercises, category, onSelect, exercise, }) {
         <Grid item sm>
           <Paper style={styles.paper}>
            <Typography variant='h4'>
-                {title}
+              {title}
            </Typography>
             <Typography 
               variant='subtitle1'
               style={{marginTop: 20}}
             >
-                {description}
+              {description}
             </Typography>
           </Paper>
         </Grid>
